@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ServadorCorp — Jasa Pembuatan Website Cepat, Modern & SEO-Ready</title>
+  <meta name="description" content="ServadorCorp membantu UMKM & bisnis membuat website modern: landing page, company profile, dan toko online. Desain premium, mobile-friendly, SEO-ready. Konsultasi gratis.">
+  <meta name="theme-color" content="#7c3aed">
+  <!-- Open Graph -->
+  <meta property="og:title" content="ServadorCorp — Jasa Pembuatan Website Cepat, Modern & SEO-Ready">
+  <meta property="og:description" content="Desain premium, mobile-friendly, SEO-ready. Konsultasi gratis.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://servadorcorp.vercel.app/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23a855f7'/%3E%3Cstop offset='0.6' stop-color='%23ec4899'/%3E%3Cstop offset='1' stop-color='%2310b981'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect rx='14' ry='14' width='64' height='64' fill='url(%23g)'/%3E%3Cpath d='M16 42l8-20 8 20 6-12h10' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Navigasi utama">
+    <div class="container nav-container">
+      <a class="nav-brand" href="#home" aria-label="ServadorCorp beranda">
+        <span class="logo">
+          <svg width="28" height="28" viewBox="0 0 64 64" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#a855f7"></stop>
+                <stop offset="0.6" stop-color="#ec4899"></stop>
+                <stop offset="1" stop-color="#10b981"></stop>
+              </linearGradient>
+            </defs>
+            <rect rx="14" ry="14" width="64" height="64" fill="url(#g)"></rect>
+            <path d="M16 42l8-20 8 20 6-12h10" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          ServadorCorp
+        </span>
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#layanan" class="nav-link">Layanan</a>
+        <a href="#portofolio" class="nav-link">Portofolio</a>
+        <a href="#testimoni" class="nav-link">Testimoni</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+        <button class="btn btn-primary nav-cta" data-action="wa">Konsultasi Gratis</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg"></div>
+    <div class="hero-effects">
+      <div class="effect-orb orb-1"></div>
+      <div class="effect-orb orb-2"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge"><span>Jasa Pembuatan Website Profesional</span></div>
+          <h1 id="hero-title" class="hero-title">
+            Naikkan Penjualan dengan <span class="gradient-text">Website Modern</span> &amp; Mobile‑Friendly
+          </h1>
+          <p class="hero-description">
+            Kami bangun <strong>landing page</strong>, <strong>company profile</strong>, dan <strong>toko online</strong> yang cepat, aman, dan SEO‑ready. Fokus Anda jualan — teknisnya biar kami.
+          </p>
+          <ul class="hero-bullets" aria-label="Keunggulan utama">
+            <li>Performa cepat & skor Lighthouse tinggi</li>
+            <li>SEO dasar + optimasi kecepatan</li>
+            <li>Gratis konsultasi & revisi wajar</li>
+          </ul>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary btn-large glow" data-action="wa" aria-label="Konsultasi via WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Konsultasi via WhatsApp
+            </a>
+            <a href="#portofolio" class="btn btn-outline btn-large" aria-label="Lihat portofolio">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+              Lihat Portofolio
+            </a>
+          </div>
+          <div class="hero-stats" role="list">
+            <div class="stat" role="listitem">
+              <div class="stat-number">20+</div>
+              <div class="stat-label">Project Selesai</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-number">99%</div>
+              <div class="stat-label">Client Puas</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat-number">98%</div>
+              <div class="stat-label">Tepat Waktu</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Tampilan workspace pengembangan web modern">
+            <div class="image-glow"></div>
+          </div>
+          <div class="trust-row" aria-label="Kepercayaan">
+            <div class="trust-badge">SSL & Keamanan</div>
+            <div class="trust-badge">SEO‑Ready</div>
+            <div class="trust-badge">Support After‑sales</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="tentang" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Tentang Kami</span>
+        <h2 class="section-title">Mengapa Pilih ServadorCorp?</h2>
+        <p class="section-description">Kami memahami kebutuhan bisnis modern yang memerlukan website berkualitas untuk berkembang di era digital.</p>
+      </div>
+      <div class="about-content">
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+            </div>
+            <h3>Performa Optimal</h3>
+            <p>Website yang cepat dan responsif untuk semua perangkat.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3>Desain Modern</h3>
+            <p>Interface menarik, fokus konversi, dan user‑friendly.</p>
+          </div>
+          <div class="about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3>SEO Ready</h3>
+            <p>Struktur bersih, meta, dan skema dasar siap Google.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="layanan" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Layanan Kami</span>
+        <h2 class="section-title">Solusi Website Terlengkap</h2>
+        <p class="section-description">Dari landing page hingga toko online, kami siap wujudkan website impian bisnis Anda.</p>
+      </div>
+      <div class="services-grid">
+        <!-- Landing Page -->
+        <article class="service-card" data-name="Landing Page" data-price="249000">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Landing Page</h3>
+          <p>Halaman promosi yang fokus konversi, cocok untuk campaign dan iklan.</p>
+          <div class="service-price">Mulai dari Rp 249K</div>
+          <ul class="service-list">
+            <li>1 halaman premium + copy dasar</li>
+            <li>Form kontak/CTA WhatsApp</li>
+            <li>Free domain & Hosting</li>
+          </ul>
+          <div class="service-actions" data-service>
+            <div class="qty-control" aria-label="Jumlah">
+              <button class="qty-btn" data-qty="minus" aria-label="Kurangi">−</button>
+              <input type="number" class="qty-input" value="1" min="1" aria-label="Jumlah item">
+              <button class="qty-btn" data-qty="plus" aria-label="Tambah">+</button>
+            </div>
+            <button class="btn btn-primary btn-add-cart">Tambah ke Keranjang</button>
+            <button class="btn btn-outline btn-whatsapp">Order via WhatsApp</button>
+          </div>
+        </article>
+
+        <!-- Company Profile -->
+        <article class="service-card featured" data-name="Company Profile" data-price="799000">
+          <div class="featured-badge">Terpopuler</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>Company Profile</h3>
+          <p>Website kredibel untuk menampilkan profil, layanan, dan portofolio perusahaan.</p>
+          <div class="service-price">Mulai dari Rp 799K</div>
+          <ul class="service-list">
+            <li>Hingga 5 halaman inti</li>
+            <li>Integrasi peta & formulir</li>
+            <li>SEO on‑page dasar</li>
+          </ul>
+          <div class="service-actions" data-service>
+            <div class="qty-control" aria-label="Jumlah">
+              <button class="qty-btn" data-qty="minus" aria-label="Kurangi">−</button>
+              <input type="number" class="qty-input" value="1" min="1" aria-label="Jumlah item">
+              <button class="qty-btn" data-qty="plus" aria-label="Tambah">+</button>
+            </div>
+            <button class="btn btn-primary btn-add-cart">Tambah ke Keranjang</button>
+            <button class="btn btn-outline btn-whatsapp">Order via WhatsApp</button>
+          </div>
+        </article>
+
+        <!-- Toko Online -->
+        <article class="service-card" data-name="Toko Online" data-price="1799000">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <h3>Toko Online</h3>
+          <p>E‑commerce siap pakai dengan manajemen produk dan pembayaran terintegrasi.</p>
+          <div class="service-price">Mulai dari Rp 1.799K</div>
+          <ul class="service-list">
+            <li>Katalog produk + keranjang</li>
+            <li>Checkout ke WhatsApp/PG</li>
+            <li>Optimasi kecepatan & keamanan</li>
+          </ul>
+          <div class="service-actions" data-service>
+            <div class="qty-control" aria-label="Jumlah">
+              <button class="qty-btn" data-qty="minus" aria-label="Kurangi">−</button>
+              <input type="number" class="qty-input" value="1" min="1" aria-label="Jumlah item">
+              <button class="qty-btn" data-qty="plus" aria-label="Tambah">+</button>
+            </div>
+            <button class="btn btn-primary btn-add-cart">Tambah ke Keranjang</button>
+            <button class="btn btn-outline btn-whatsapp">Order via WhatsApp</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portofolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Portofolio</span>
+        <h2 class="section-title">Project Terbaru Kami</h2>
+        <p class="section-description">Lihat hasil karya terbaik kami untuk berbagai jenis bisnis dan industri.</p>
+      </div>
+      <div class="portfolio-grid">
+        <a href="faizrizqi.vercel.app" target="_blank" rel="noopener" class="portfolio-item">
+          <div class="portfolio-image">
+            <img loading="lazy" src="image/b1.png.png" alt="Restaurant Website — Landing Page">
+            <div class="portfolio-overlay">
+              <h4>Portofolio</h4><p>Landing Page</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://sipshop-clone-creator.vercel.app/" target="_blank" rel="noopener" class="portfolio-item">
+          <div class="portfolio-image">
+            <img loading="lazy" src="image/g1.png.png" alt="Top‑Up Game — E‑commerce">
+            <div class="portfolio-overlay">
+              <h4>Top‑Up Game</h4><p>E‑commerce</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://adityateknik.my.id" target="_blank" rel="noopener" class="portfolio-item">
+          <div class="portfolio-image">
+            <img loading="lazy" src="image/a1.png.png" alt="Tech Company — Company Profile">
+            <div class="portfolio-overlay">
+              <h4>Tech Company</h4><p>Company Profile</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimoni" class="testimonials" aria-label="Testimoni klien">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Apa Kata Klien</span>
+        <h2 class="section-title">Testimoni & Social Proof</h2>
+        <p class="section-description">Kepercayaan Anda adalah prioritas kami.</p>
+      </div>
+      <div class="testi-track" data-track>
+        <figure class="testi-card">
+          <blockquote>“Landing page kami langsung perform — traffic dari iklan jadi lebih murah dan konversi naik.”</blockquote>
+          <figcaption>— Raka, Owner Restoku</figcaption>
+        </figure>
+        <figure class="testi-card">
+          <blockquote>“Desain rapi, cepat, dan komunikatif. Hasil akhirnya di atas ekspektasi.”</blockquote>
+          <figcaption>— Sari, Marketing Manager</figcaption>
+        </figure>
+        <figure class="testi-card">
+          <blockquote>“Toko online jalan mulus. Order ke WhatsApp bikin proses jadi simpel.”</blockquote>
+          <figcaption>— Dimas, Founder GadgetX</figcaption>
+        </figure>
+      </div>
+      <div class="testi-dots" role="tablist" aria-label="Pilih testimoni">
+        <button class="dot is-active" aria-label="Testimoni 1" data-dot="0"></button>
+        <button class="dot" aria-label="Testimoni 2" data-dot="1"></button>
+        <button class="dot" aria-label="Testimoni 3" data-dot="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Pertanyaan Umum</span>
+        <h2 class="section-title">FAQ</h2>
+        <p class="section-description">Beberapa hal yang sering ditanyakan klien.</p>
+      </div>
+      <div class="faq-list" role="list">
+        <details class="faq-item" role="listitem">
+          <summary>Berapa lama waktu pembuatan website?</summary>
+          <p>Landing page 3–7 hari, company profile 1–2 minggu, dan toko online 2–4 minggu tergantung kompleksitas & bahan dari Anda.</p>
+        </details>
+        <details class="faq-item" role="listitem">
+          <summary>Apakah termasuk domain & hosting?</summary>
+          <p>Bisa. Kami bantu rekomendasi & setup. Atau gunakan hosting/domain Anda sendiri.</p>
+        </details>
+        <details class="faq-item" role="listitem">
+          <summary>Apakah ada garansi & support?</summary>
+          <p>Ada garansi bug‑fix serta dukungan after‑sales (sesuai paket). Kami ingin Anda tenang setelah website go‑live.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="kontak" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Kontak</span>
+        <h2 class="section-title">Siap Wujudkan Website Impian?</h2>
+        <p class="section-description">Konsultasi gratis untuk menentukan solusi terbaik bagi bisnis Anda.</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div><h4>WhatsApp</h4><p>+62 821-2983-7460</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div><h4>Email</h4><p>faizrizqi0192@gmail.com</p></div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form aria-label="Form kontak">
+            <div class="form-group">
+              <input name="name" type="text" placeholder="Nama Lengkap" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <input name="email" type="email" placeholder="Email" required autocomplete="email">
+            </div>
+            <div class="form-group">
+              <input name="phone" type="tel" placeholder="Nomor WhatsApp" required autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <select name="service" required>
+                <option value="">Pilih Layanan</option>
+                <option value="Landing Page">Landing Page</option>
+                <option value="Company Profile">Company Profile</option>
+                <option value="Toko Online">Toko Online</option>
+                <option value="Custom">Custom</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Ceritakan kebutuhan website Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo">ServadorCorp</span>
+          <p>Solusi website terbaik untuk bisnis modern. Wujudkan website impian Anda bersama kami.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Layanan</h4>
+          <a href="#layanan">Landing Page</a>
+          <a href="#layanan">Company Profile</a>
+          <a href="#layanan">Toko Online</a>
+        </div>
+        <div class="footer-links">
+          <h4>Perusahaan</h4>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#portofolio">Portofolio</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Kontak</h4>
+          <p>faizrizqi0192@gmail.com</p>
+          <p>+62 821-2983-7460</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 ServadorCorp. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky CTA (mobile) -->
+  <div class="sticky-cta" role="region" aria-label="Aksi cepat">
+    <a href="#" data-action="wa" class="btn btn-primary">Konsultasi Gratis</a>
+    <a href="#layanan" class="btn btn-outline">Lihat Harga</a>
+    <button class="btn btn-outline" id="sticky-cart-open" aria-label="Buka Keranjang">Keranjang</button>
+  </div>
+
+  <!-- Floating WhatsApp -->
+  <a href="#" class="wa-float" aria-label="Chat WhatsApp" data-action="wa">WA</a>
+
+  <!-- Cart Floating Button & Drawer (existing) -->
+  <button class="cart-fab" id="cart-fab" aria-label="Buka keranjang">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+      <circle cx="9" cy="21" r="1"></circle>
+      <circle cx="20" cy="21" r="1"></circle>
+      <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+    </svg>
+    <span class="cart-badge" id="cart-badge">0</span>
+  </button>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="cart-header">
+      <h3>Keranjang</h3>
+      <button class="cart-close" id="cart-close" aria-label="Tutup">×</button>
+    </div>
+    <div class="cart-items" id="cart-items"><p class="cart-empty">Keranjang masih kosong.</p></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Subtotal</span><strong id="cart-subtotal">Rp 0</strong></div>
+      <div class="cart-actions">
+        <button class="btn btn-outline" id="cart-clear">Bersihkan</button>
+        <button class="btn btn-primary" id="cart-checkout">Checkout via WhatsApp</button>
+      </div>
+    </div>
+  </aside>
+  <div class="cart-backdrop" id="cart-backdrop" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ServadorCorp",
+    "url": "https://servadorcorp.vercel.app/",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "description": "Jasa pembuatan website: landing page, company profile, toko online. Modern, cepat, SEO-ready.",
+    "telephone": "+62-821-2983-7460",
+    "email": "faizrizqi0192@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ID"
+    },
+    "areaServed": "Indonesia",
+    "sameAs": []
+  }
+  </script>
+</body>
+</html>
